@@ -1,0 +1,47 @@
+body{
+    background: url(images/grey.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    flex-direction: column;
+}
+h1{
+    font-family:Verdana;
+    color: rgb(249, 248, 246);
+}
+.img1{
+    
+     height: 150px;
+     border-radius: 75px;
+     margin-left: 37px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.btn{
+    height:60px;
+    width: 230px;
+position: relative;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:monospace;
+    margin: 20px;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    background: transparent;
+    
+    
+}
+
+i{
+position: relative;
+left: -195px;
+top:3px;
+}
